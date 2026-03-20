@@ -1,0 +1,20 @@
+=== CRASH LOG ===
+Date: 2026-03-20 14:55:38
+Version: v1.1.2
+OS: win32
+Python: 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+PyQt5: 5.15.11
+
+Error Details:
+An unexpected error occurred:
+
+name 'DEBUG' is not defined
+
+Traceback:
+Traceback (most recent call last):
+  File "E:\PROJELER\SONRA\UEAudioEditör\main.py", line 129, in <module>
+    window = WemSubtitleApp()
+  File "E:\PROJELER\SONRA\UEAudioEditör\editor\app.py", line 77, in __init__
+    DEBUG.log("=== OutlastTrials AudioEditor Starting ===")
+    ^^^^^
+NameError: name 'DEBUG' is not defined
